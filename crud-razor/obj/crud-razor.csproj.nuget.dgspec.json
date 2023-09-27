@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj": {}
+    "E:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj": {}
   },
   "projects": {
-    "e:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj": {
+    "E:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj",
+        "projectUniqueName": "E:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj",
         "projectName": "crud-razor",
-        "projectPath": "e:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj",
+        "projectPath": "E:\\C#\\crudRazor\\crud-razor\\crud-razor.csproj",
         "packagesPath": "C:\\Users\\mrsil\\.nuget\\packages\\",
-        "outputPath": "e:\\C#\\crudRazor\\crud-razor\\obj\\",
+        "outputPath": "E:\\C#\\crudRazor\\crud-razor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -59,6 +59,14 @@
               "target": "Package",
               "version": "[6.0.22, )"
             },
+            "Microsoft.DotNet.Scaffolding.Shared": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.22, )"
@@ -66,6 +74,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.22, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -87,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
